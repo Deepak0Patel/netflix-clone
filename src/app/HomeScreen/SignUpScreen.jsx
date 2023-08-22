@@ -63,7 +63,6 @@ const SignUpScreen = () => {
         <button type="submit" onClick={signIn}>
           Sign In
         </button>
-
         <h4>
           <span className="signUpScreen__gray">New to Netflix?</span>
           <span className="signUpScreen__link" onClick={register}>
@@ -71,6 +70,8 @@ const SignUpScreen = () => {
           </span>
         </h4>
       </form>
+      <span className="spantext">Demo account: </span> goku@gmail.com <br />
+      <span className="spantext"> password:</span>123456
     </div>
   );
 };
